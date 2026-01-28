@@ -1,0 +1,65 @@
+<div class="container">
+  <h2>Lista de Contactos</h2>
+
+  <div class="mensaje" *ngIf="mensaje" [ngClass]="{'error': error, 'success': !error}">
+    {{ mensaje }}
+  </div>
+
+  <div *ngIf="contactos.length === 0" class="sin-contactos">
+    No hay contactos registrados
+  </div>
+
+  <table *ngIf="contactos.length > 0" class="tabla-contactos">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Teléfono</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let contacto of contactos">
+        <ng-container *ngIf="contactoEditando?.ID !== contacto.ID">
+          <td>{{ contacto.ID }}</td>
+          <td>{{ contacto.NOMBRE}}</td>
+          <td>{{ contacto.TELEFONO}}</td>
+          <td>
+            <button class="btn btn-warning" (click)="editarContacto(contacto)">
+              Editar
+            </button>
+            <button class="btn btn-danger" (click)="eliminarContacto(contacto.ID)">
+              Eliminar
+            </button>
+          </td>
+        </ng-container>
+
+        <ng-container *ngIf="contactoEditando?.ID === contacto.ID">
+          <td>{{ contacto.ID }}</td>
+          <td>
+            <input type="text"
+                   [(ngModel)]="contactoEditando!.NOMBRE"
+                   class="form-control-small">
+          </td>
+          <td>
+            <input type="text"
+                   [(ngModel)]="contactoEditando!.TELEFONO"
+                   class="form-control-small">
+          </td>
+          <td>
+            <button class="btn btn-success" (click)="guardarEdicion()">
+              Guardar
+            </button>
+            <button class="btn btn-secondary" (click)="cancelarEdicion()">
+              Cancelar
+            </button>
+          </td>
+        </ng-container>
+      </tr>
+    </tbody>
+  </table>
+
+  <button class="btn btn-primary btn-volver" (click)="volver()">
+    Volver al Inicio
+  </button>
+</div>

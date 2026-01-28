@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\agenda",
+    "\\agenda\\src",
+    "\\agenda\\src\\app",
+    "\\agenda\\src\\app\\components",
+    "\\agenda\\src\\app\\components\\agregar-contacto",
+    "\\agenda\\src\\app\\services"
+  ],
+  "SelectedNode": "\\agenda\\src\\app\\app.component.html",
+  "PreviewInSolutionExplorer": false
+}
