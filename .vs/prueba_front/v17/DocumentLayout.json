@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\Trabajo\\Proyectos\\prueba_front\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Desktop\\Trabajo\\Proyectos\\prueba_front\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\Desktop\\Trabajo\\Proyectos\\prueba_front\\agenda\\src\\app\\components\\agregar-contacto\\agregar-contacto.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:agenda\\src\\app\\components\\agregar-contacto\\agregar-contacto.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Trabajo\\Proyectos\\prueba_front\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Trabajo\\Proyectos\\prueba_front\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-01-28T20:58:37.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "agregar-contacto.component.ts",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Trabajo\\Proyectos\\prueba_front\\agenda\\src\\app\\components\\agregar-contacto\\agregar-contacto.component.ts",
               "RelativeDocumentMoniker": "agenda\\src\\app\\components\\agregar-contacto\\agregar-contacto.component.ts",
